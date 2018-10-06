@@ -1,0 +1,151 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {600, 600}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Label",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{244, 245}, {150, 32}}",
+          "uuid" : "FCD6C762-D835-4587-BCD8-C2CB59BF479B"
+        },
+        "frame" : "{{50, 25}, {500, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "frame" : "{{219, 245}, {200, 32}}",
+          "action" : "textfield_action",
+          "name" : "textfield1",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "spellchecking_type" : "default",
+          "uuid" : "06C57228-D3D5-4F83-95BC-5D22293EC6F6",
+          "class" : "TextField"
+        },
+        "frame" : "{{50, 100}, {500, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "flex" : "LR",
+          "segments" : "seg1|seg2|seg3|seg4",
+          "name" : "segmentedcontrol1",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "action" : "segmentedcontrol_action",
+          "class" : "SegmentedControl",
+          "frame" : "{{259, 246}, {120, 29}}",
+          "uuid" : "0C36267F-A5FD-4BFE-86C5-B4B3F2623129"
+        },
+        "frame" : "{{50, 200}, {500, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "slider1",
+          "corner_radius" : 0,
+          "value" : 0.5,
+          "action" : "slider_action",
+          "class" : "Slider",
+          "border_width" : 1,
+          "frame" : "{{219, 244}, {200, 34}}",
+          "uuid" : "517A654F-941A-469A-9DE0-DE79E1A4CADB"
+        },
+        "frame" : "{{50, 275}, {500, 34}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "name" : "switch1",
+          "corner_radius" : 0,
+          "value" : true,
+          "action" : "switch_action",
+          "class" : "Switch",
+          "border_width" : 1,
+          "frame" : "{{294, 245}, {51, 31}}",
+          "uuid" : "AF74C30C-A7F8-4F5D-ADF0-A0B191375F60"
+        },
+        "frame" : "{{109, 544}, {51, 31}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "57311F6A-DC0B-49AE-8FE9-4A95E243315A",
+          "name" : "button1",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "action" : "button_action",
+          "class" : "Button",
+          "frame" : "{{279, 245}, {80, 32}}",
+          "title" : "Button"
+        },
+        "frame" : "{{400, 525}, {150, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "DatePicker",
+        "attributes" : {
+          "name" : "datepicker1",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "action" : "datepicker_action",
+          "class" : "DatePicker",
+          "mode" : 1,
+          "frame" : "{{159, 153}, {320, 216}}",
+          "uuid" : "E9A4B829-0F00-4E4B-8F82-82FFF8789001"
+        },
+        "frame" : "{{150, 350}, {300, 150}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

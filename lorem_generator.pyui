@@ -1,0 +1,142 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "Generata Lorem Ipsum",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {612, 528}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "flex" : "WH",
+          "autocorrection_type" : "default",
+          "name" : "textview1",
+          "uuid" : "E54208E5-FC86-48BD-B947-CE69436D3490",
+          "class" : "TextView",
+          "editable" : true,
+          "alignment" : "left",
+          "frame" : "{{206, 164}, {200, 200}}",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{36, 146}, {545, 269}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "B6310F75-60C8-4C37-8C5A-5167F5E3FAA7",
+          "name" : "button1",
+          "action" : "copy_action",
+          "class" : "Button",
+          "frame" : "{{266, 248}, {80, 32}}",
+          "title" : "Copy"
+        },
+        "frame" : "{{46, 431}, {220, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "163F95D6-3F9C-4867-8054-A2FED739E8B5",
+          "name" : "button2",
+          "action" : "randomize_action",
+          "class" : "Button",
+          "frame" : "{{266, 248}, {80, 32}}",
+          "title" : "Randomize"
+        },
+        "frame" : "{{347, 431}, {234, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "slider1",
+          "value" : 0.5,
+          "action" : "slider_changed",
+          "class" : "Slider",
+          "frame" : "{{206, 247}, {200, 34}}",
+          "uuid" : "8E1B6546-19F5-4164-A77E-7887A249ACB8"
+        },
+        "frame" : "{{265, 37}, {316, 34}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "slider2",
+          "value" : 0.5,
+          "action" : "slider_changed",
+          "class" : "Slider",
+          "frame" : "{{206, 247}, {200, 34}}",
+          "uuid" : "D748972B-254C-43B6-A8AB-5CB7B303632E"
+        },
+        "frame" : "{{265, 93}, {316, 34}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Sentence",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{231, 248}, {150, 32}}",
+          "uuid" : "6F21E4A4-BB54-4429-9B9B-C562E1AB3844"
+        },
+        "frame" : "{{36, 37}, {190, 34}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Paragraph",
+          "font_name" : "<System>",
+          "name" : "label2",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{231, 248}, {150, 32}}",
+          "uuid" : "E04AD3F8-8C98-4DD9-9F68-0CC338AF6A64"
+        },
+        "frame" : "{{36, 93}, {190, 34}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

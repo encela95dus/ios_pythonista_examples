@@ -1,0 +1,76 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {400, 400}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "BD41E6F8-3384-4CD5-81D4-C9960FD4C513",
+          "name" : "button1",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "action" : "inc1",
+          "class" : "Button",
+          "frame" : "{{141, 159}, {80, 32}}",
+          "image_name" : "iob:ios7_plus_empty_24",
+          "title" : "inc"
+        },
+        "frame" : "{{50, 200}, {100, 50}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "dec",
+          "name" : "button2",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "action" : "dec1",
+          "class" : "Button",
+          "frame" : "{{141, 159}, {80, 32}}",
+          "image_name" : "iob:ios7_minus_empty_24",
+          "uuid" : "3F67DFD7-7843-484B-9167-B1E4C0EEB0EE"
+        },
+        "frame" : "{{250, 200}, {100, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "0",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{106, 159}, {150, 32}}",
+          "uuid" : "5C5145BF-8315-4B37-8915-545B67866559"
+        },
+        "frame" : "{{100, 50}, {200, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

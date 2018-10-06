@@ -1,0 +1,80 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {507, 533}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "B2DE420B-0313-4A63-ABE3-D7583AB02501",
+          "frame" : "{{147, 151}, {100, 100}}",
+          "background_color" : "RGBA(0.500000,1.000000,0.500000,1.000000)"
+        },
+        "frame" : "{{24, 16}, {400, 100}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view2",
+          "uuid" : "4E009237-9461-4F5D-9E9B-8D06AF2C0FFE",
+          "frame" : "{{147, 151}, {100, 100}}",
+          "background_color" : "RGBA(0.400000,0.400000,1.000000,1.000000)"
+        },
+        "frame" : "{{24, 124}, {400, 300}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "hide",
+          "name" : "button1",
+          "action" : "hide_action",
+          "class" : "Button",
+          "frame" : "{{171, 222}, {80, 32}}",
+          "uuid" : "B658AC3F-D8F7-48BE-BC7C-31D161D3D859"
+        },
+        "frame" : "{{24, 443}, {145, 53}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "reveal",
+          "name" : "button2",
+          "action" : "reveal_action",
+          "class" : "Button",
+          "frame" : "{{171, 222}, {80, 32}}",
+          "uuid" : "BEABD369-6687-492D-B8E2-F2AADCC75212"
+        },
+        "frame" : "{{295, 451}, {129, 53}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

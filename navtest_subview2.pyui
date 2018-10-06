@@ -1,0 +1,35 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "Subview2",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {600, 400}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Subview 2",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "590803AC-D7E1-4D8A-B5B7-E7F2CAFDD034"
+        },
+        "frame" : "{{224, 174}, {150, 58}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {500, 500}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "ScrollView",
+        "attributes" : {
+          "class" : "ScrollView",
+          "name" : "scrollview1",
+          "frame" : "{{78, 62}, {320, 320}}",
+          "uuid" : "3A545143-56CF-42D6-8B67-C653BA88E254",
+          "content_width" : 256,
+          "content_height" : 256
+        },
+        "frame" : "{{150, 50}, {200, 200}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "3A5C5803-83C3-42A1-9093-12AC0919E9CF",
+          "name" : "button1",
+          "action" : "get_stored_image",
+          "class" : "Button",
+          "frame" : "{{198, 206}, {80, 32}}",
+          "title" : "stored image"
+        },
+        "frame" : "{{50, 350}, {150, 50}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "F965814A-C18C-4217-921D-0B1CB680DCD9",
+          "name" : "button2",
+          "action" : "get_image_from_photos",
+          "class" : "Button",
+          "frame" : "{{198, 206}, {80, 32}}",
+          "title" : "photo image"
+        },
+        "frame" : "{{300, 350}, {150, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

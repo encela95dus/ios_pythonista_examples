@@ -1,0 +1,71 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {397, 377}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TableView",
+        "attributes" : {
+          "data_source_font_size" : 18,
+          "data_source_number_of_lines" : 1,
+          "flex" : "WH",
+          "name" : "tableview1",
+          "row_height" : 44,
+          "data_source_delete_enabled" : true,
+          "class" : "TableView",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "frame" : "{{169, 92}, {200, 200}}",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "uuid" : "D7EBA3C4-63B2-4F1E-9F40-2CD9E97B93D7"
+        },
+        "frame" : "{{23, 39}, {359, 231}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "63689941-6F53-4FA3-9811-4B097FB99BF7",
+          "name" : "button1",
+          "action" : "edit_action",
+          "class" : "Button",
+          "frame" : "{{229, 176}, {80, 32}}",
+          "title" : "Edit"
+        },
+        "frame" : "{{23, 278}, {122, 47}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "CCF9DC73-F59B-4E6D-8D82-6EF33104A5AB",
+          "name" : "button2",
+          "action" : "done_action",
+          "class" : "Button",
+          "frame" : "{{229, 176}, {80, 32}}",
+          "title" : "Done"
+        },
+        "frame" : "{{244, 278}, {119, 47}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

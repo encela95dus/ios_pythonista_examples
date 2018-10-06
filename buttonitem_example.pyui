@@ -1,0 +1,68 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {624, 559}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "0",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{237, 264}, {150, 32}}",
+          "uuid" : "6449CC69-ADC1-4679-8725-951A70C43553"
+        },
+        "frame" : "{{237, 91}, {150, 84}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "dec",
+          "name" : "button1",
+          "action" : "dec1",
+          "class" : "Button",
+          "frame" : "{{272, 264}, {80, 32}}",
+          "uuid" : "87A45F3F-4CB8-47C6-93C7-7736F52530E6"
+        },
+        "frame" : "{{354, 233}, {107, 65}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "inc",
+          "name" : "button2",
+          "action" : "inc1",
+          "class" : "Button",
+          "frame" : "{{272, 264}, {80, 32}}",
+          "uuid" : "CD253DA1-D68C-43AE-947B-E01555611752"
+        },
+        "frame" : "{{122, 233}, {107, 72}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

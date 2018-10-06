@@ -1,0 +1,65 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {600, 400}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "89195E58-9AB5-4C1E-8DBE-6CEF0CC40F1C",
+          "frame" : "{{217, 206}, {100, 100}}",
+          "custom_class" : ""
+        },
+        "frame" : "{{65, 100}, {471, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "D3721095-CD2C-4287-A8BE-E69F485B0EE6",
+          "name" : "button1",
+          "action" : "set_dog",
+          "class" : "Button",
+          "frame" : "{{227, 240}, {80, 32}}",
+          "title" : "dog"
+        },
+        "frame" : "{{65, 323}, {157, 58}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "6D1BFAE0-2CF7-44CF-9AAB-5967BFE04C1F",
+          "name" : "button2",
+          "action" : "set_cat",
+          "class" : "Button",
+          "frame" : "{{227, 240}, {80, 32}}",
+          "title" : "cat"
+        },
+        "frame" : "{{409, 323}, {127, 54}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
