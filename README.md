@@ -98,7 +98,9 @@
         - cards   https://forum.omz-software.com/topic/4856/can-someone-turn-this-script-into-a-node-tutorial-please
         - word game   https://forum.omz-software.com/topic/4790/boggle-app-need-help-changing-labels-3x-in-a-function/9
     - shader
-        - shader_example1.py 
+        - shader_example1.py - basic example to run shaders
+        - template_shadertoy.py - template to run shadertoy examples
+           - https://www.shadertoy.com/ contains a large collection of shader examples 
         - from forum
             - an introductory online book on shaders to learn shaders
                 - https://thebookofshaders.com/
