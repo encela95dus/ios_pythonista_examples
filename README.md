@@ -34,6 +34,7 @@
             - show it on console and save it in a file
         - imagecontext2.py - drawing rotated text (using GState and coordinate transformation)
         - imagecontext3.py - drawing a polygon
+        - imagecontext4.py - drawing an image inside a polygon
     - basic_image_transform.py 
     - create image by taking snapshot of a view
         -  https://forum.omz-software.com/topic/4554/saving-console-display-to-an-image
@@ -44,6 +45,7 @@
         - https://forum.omz-software.com/topic/4288/creating-images-using-designer-by-combining-images-texts-shapes/1
 *   customview examples
     - customview1.py, radio_button.py  
+    - custonview_imagemask.py - drawing a masked image (image inside a polygon) in a custom view
     - interactive drawing in customview - see sketch.py in examples directory
     - update functionality examples digitalclock.py, stopwatch.py, analogclock
     - from forum
@@ -55,6 +57,7 @@
 *   animation examples
     - animate1.py - animating color
     - animation2.py - animating scale, alpha and move
+    - transform playground https://forum.omz-software.com/topic/2268/view-transform-origin
     - viewslide.py
     - delay_test.py
     - from forum
@@ -74,6 +77,8 @@
     - https://forum.omz-software.com/topic/3511/show-on-a-map-the-chronological-route-of-your-photos/1
     - https://forum.omz-software.com/topic/4990/display-thumbs-of-your-photos-at-their-locations-on-a-map/1  
 *   scene examples
+    - animation examples in examples directory
+    - games examples in examples directory
     - basic_nodes.py
     - change_attributes.py
     - change_positions.py 
@@ -82,14 +87,22 @@
     - textanimation.py
     - textanimation_wayy.py
     - scene_viewexample.py - scene embedded in a view
-    - animation examples in examples directory
+    - digital_watch.py, stop_watch.py - more examples on update
+    - action_based_timer.py
     - animations from forum
         - planet motion https://forum.omz-software.com/topic/3754/show-all-scene-child-nodes
-    - games examples in examples directory
+        - pendulum motion https://forum.omz-software.com/topic/3312/labelsprite-rotate_by-problem
+        - https://forum.omz-software.com/topic/4284/how-do-i-make-a-full-screen-button-and-handle-button-down-and-button-up-events/6
     - games from forum
         - pong https://forum.omz-software.com/topic/3367/drawing-with-pythonistas-modules
         - cards   https://forum.omz-software.com/topic/4856/can-someone-turn-this-script-into-a-node-tutorial-please
         - word game   https://forum.omz-software.com/topic/4790/boggle-app-need-help-changing-labels-3x-in-a-function/9
+    - shader
+        - shader_example1.py 
+        - from forum
+            - an introductory online book on shaders to learn shaders
+                - https://thebookofshaders.com/
+            - https://forum.omz-software.com/topic/3274/fast-color-change-animation-of-a-shape
 *   simple tools  - to be added to editor action menu 
     - clipboard_image_on_console
     - clipboard_image_share.py
