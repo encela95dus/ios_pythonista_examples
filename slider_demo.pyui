@@ -1,0 +1,85 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {537, 460}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "slider1",
+          "value" : 0.5,
+          "action" : "slider_action1",
+          "class" : "Slider",
+          "frame" : "{{100, 183}, {200, 34}}",
+          "background_color" : "RGBA(0.533333,1.000000,0.844444,1.000000)",
+          "uuid" : "5A426358-6C51-4830-BEAE-A356F3DF3852"
+        },
+        "frame" : "{{22, 127}, {480, 34}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "slider2",
+          "continuous" : true,
+          "value" : 0.5,
+          "action" : "slider_action2",
+          "class" : "Slider",
+          "frame" : "{{100, 183}, {200, 34}}",
+          "uuid" : "A9A1AB9E-E7AD-4F3F-9005-B3B8906B1399"
+        },
+        "frame" : "{{22, 325}, {480, 34}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "0.5",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "uuid" : "4AF61C39-69AF-4E22-A5C3-EDBEF0AD18D7"
+        },
+        "frame" : "{{32, 42}, {333, 43}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "BC09B5CA-1553-4D60-B906-8DEEBB9D2C8E",
+          "frame" : "{{150, 150}, {100, 100}}",
+          "custom_class" : "CustomView"
+        },
+        "frame" : "{{22, 219}, {343, 61}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
