@@ -1,0 +1,47 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {506, 499}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "imageview1",
+          "uuid" : "7CD35477-234E-4116-ABD5-12FBE7ACFE4C",
+          "frame" : "{{203, 200}, {100, 100}}"
+        },
+        "frame" : "{{100, 100}, {300, 300}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "uuid" : "9DA076FD-475E-467D-9E2C-538DD8B33919",
+          "name" : "view1",
+          "alpha" : 0.4,
+          "class" : "View",
+          "custom_class" : "ShapeView",
+          "frame" : "{{203, 200}, {100, 100}}",
+          "background_color" : "RGBA(0.700000,1.000000,0.800000,1.000000)"
+        },
+        "frame" : "{{150, 150}, {100, 100}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
