@@ -1,0 +1,220 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {565, 598}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "alert",
+          "name" : "button1",
+          "action" : "alert_action",
+          "class" : "Button",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "uuid" : "7C2EE3C4-D756-4B36-8079-AA9D7708E890"
+        },
+        "frame" : "{{41, 61}, {142, 51}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "input alert",
+          "name" : "button2",
+          "action" : "input_alert_action",
+          "class" : "Button",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "uuid" : "09FCA1F6-EC98-4A08-B728-8865BE63BCA5"
+        },
+        "frame" : "{{41, 161}, {142, 43}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "password_alert",
+          "name" : "button3",
+          "action" : "password_alert_action",
+          "class" : "Button",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "uuid" : "BFB38EEC-D18B-461C-B056-AF430F9EDC13"
+        },
+        "frame" : "{{41, 252}, {135, 43}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "login_alert",
+          "name" : "button4",
+          "action" : "login_alert_action",
+          "class" : "Button",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "uuid" : "1221BAF3-FE2D-480A-AE85-4CFBF42F66A3"
+        },
+        "frame" : "{{41, 341}, {135, 40}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "text dialog",
+          "name" : "button5",
+          "action" : "text_dialog_action",
+          "class" : "Button",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "uuid" : "22D4EFB4-1339-458E-8B88-094D310A506A"
+        },
+        "frame" : "{{41, 503}, {128, 47}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "list dialog",
+          "name" : "button6",
+          "action" : "list_dialog_action",
+          "class" : "Button",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "uuid" : "08DFCFB8-FA18-4A19-BDE9-F6BD1E6AF37A"
+        },
+        "frame" : "{{329, 61}, {139, 52}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "edit list dialog",
+          "name" : "button7",
+          "action" : "edit_list_dialog_action",
+          "class" : "Button",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "uuid" : "BD199D66-B371-432B-96BC-DEE6C379B4F9"
+        },
+        "frame" : "{{329, 161}, {139, 43}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Datetime dialog",
+          "name" : "button8",
+          "action" : "datetime_dialog_action",
+          "class" : "Button",
+          "frame" : "{{210, 234}, {80, 32}}",
+          "uuid" : "CE5F0BAA-042F-40B1-96AD-9F43BE50E03F"
+        },
+        "frame" : "{{329, 418}, {139, 51}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "date dialog",
+          "name" : "button9",
+          "action" : "date_dialog_action",
+          "class" : "Button",
+          "frame" : "{{243, 283}, {80, 32}}",
+          "uuid" : "3DF4AFD0-0A04-4F15-A099-68589DDA71EB"
+        },
+        "frame" : "{{329, 241}, {139, 48}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "time dialog",
+          "name" : "button10",
+          "action" : "time_dialog_action",
+          "class" : "Button",
+          "frame" : "{{243, 283}, {80, 32}}",
+          "uuid" : "D213697F-0106-4B80-85AE-1AA1A3202FE5"
+        },
+        "frame" : "{{342, 341}, {133, 40}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "duration dialog",
+          "name" : "button11",
+          "action" : "duration_dialog_action",
+          "class" : "Button",
+          "frame" : "{{243, 283}, {80, 32}}",
+          "uuid" : "9FC31542-D9E5-4EF1-AB7D-479C5B28743D"
+        },
+        "frame" : "{{341, 502}, {127, 48}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "hudalert",
+          "name" : "button12",
+          "action" : "hudalert_action",
+          "class" : "Button",
+          "frame" : "{{243, 283}, {80, 32}}",
+          "uuid" : "AD26DFD0-66F7-4782-97BD-9CA3C51F9A43"
+        },
+        "frame" : "{{50, 418}, {126, 43}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

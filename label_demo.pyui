@@ -1,0 +1,172 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {539, 562}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 12,
+          "text" : "courier 12",
+          "font_name" : "Courier",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "uuid" : "9046FD19-6EFB-46B8-9CAA-F9652FA16C3C"
+        },
+        "frame" : "{{25, 25}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "courier 18",
+          "font_name" : "Courier",
+          "tint_color" : "RGBA(0.466667,0.644445,1.000000,1.000000)",
+          "name" : "label2",
+          "text_color" : "RGBA(1.000000,0.266667,0.266667,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "uuid" : "020736F3-DBE5-4CCA-9A0E-7BCF6DADF344"
+        },
+        "frame" : "{{25, 77}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "<system> 18",
+          "font_name" : "<System>",
+          "name" : "label3",
+          "text_color" : "RGBA(0.466667,0.466667,1.000000,1.000000)",
+          "class" : "Label",
+          "alignment" : "right",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "uuid" : "86CDF584-B01E-4CEA-A155-E3953E6EC65B"
+        },
+        "frame" : "{{25, 129}, {150, 55}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "label text spanning multiple lines",
+          "font_name" : "<System>",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "name" : "label4",
+          "custom_attributes" : "",
+          "number_of_lines" : 3,
+          "class" : "Label",
+          "alignment" : "center",
+          "uuid" : "6AB97127-5C23-4105-9728-66DE2F08A2DE"
+        },
+        "frame" : "{{33, 217}, {142, 91}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "label text spanning multiple lines",
+          "font_name" : "<System>",
+          "name" : "label5",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "custom_attributes" : "{'line_break_mode':ui.LB_CHAR_WRAP}",
+          "uuid" : "EF59EFFF-618C-4EAA-8DBB-976D3D0025AE"
+        },
+        "frame" : "{{216, 217}, {131, 91}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "border",
+          "font_name" : "<System>",
+          "name" : "label6",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "uuid" : "AA6AF381-2A76-4279-AC86-9367D426397D"
+        },
+        "frame" : "{{205, 25}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "border color",
+          "font_name" : "<System>",
+          "name" : "label7",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "border_color" : "RGBA(0.600000,0.866667,1.000000,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "uuid" : "ED2E0937-FF24-4080-BAE0-D09F56AF4BCC"
+        },
+        "frame" : "{{205, 77}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "background color",
+          "font_name" : "<System>",
+          "name" : "label8",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{125, 184}, {150, 32}}",
+          "background_color" : "RGBA(0.633333,1.000000,0.633333,1.000000)",
+          "uuid" : "D39D1659-EF7E-4AAC-9639-D89CFAB17B16"
+        },
+        "frame" : "{{216, 129}, {157, 47}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
